@@ -1,6 +1,7 @@
 const arrows = document.querySelectorAll(".arrow");
 const movieLists = document.querySelectorAll(".movie-list");
 
+
 arrows.forEach((arrow, i) => {
   const itemNumber = movieLists[i].querySelectorAll("img").length;
   let clickCounter = 0;
@@ -21,6 +22,7 @@ arrows.forEach((arrow, i) => {
 });
 
 //TOGGLE
+
 
 const ball = document.querySelector(".toggle-ball");
 const items = document.querySelectorAll(
